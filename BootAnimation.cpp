@@ -375,7 +375,7 @@ bool BootAnimation::android()
 		{
 			angle = 90;
 			if ( nextInvert == -1 )
-				nextInvert = time + us2ns( 70000 );
+				nextInvert = time + us2ns( 55000 );
 		}
 
 		double alpha = 1;
